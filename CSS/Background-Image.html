@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Background Image</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Background Section */
+    .bg {
+      height: 300px;
+      background-image: url("../Image/banana.jpg"); /* Ensure correct path */
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-attachment: fixed;
+      position: relative;
+    }
+
+    /* Overlay effect to make text readable */
+    .inner {
+      height: 300px;
+      width: 100%;
+      background: rgba(0, 0, 0, 0.6); /* Semi-transparent black background */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      padding-left: 100px;
+      color: #fff;
+    }
+
+    /* Headings */
+    .inner h4 {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+    }
+
+    .inner h1 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+    }
+
+    .inner p {
+      font-size: 1.2rem;
+      max-width: 600px;
+      margin-bottom: 30px;
+    }
+
+    /* Button */
+    a {
+      text-decoration: none;
+      background: #dc143c;
+      border: 2px solid #dc143c;
+      padding: 10px 20px;
+      color: white;
+      font-size: 1rem;
+      transition: background 0.3s ease;
+    }
+
+    a:hover {
+      background: white;
+      color: #dc143c;
+    }
+
+    section {
+      height: 600px;
+    }
+  </style>
+</head>
+<body>
+
+<section></section> <!-- Spacer Section -->
+
+<div class="bg">
+  <div class="inner">
+    <h4>About TechSima</h4>
+    <h1>Code Your Way Up To The Peak</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa aut officia iusto laudantium? Beatae, sequi pariatur! Corrupti numquam tempore ipsa.</p>
+    <a href="#">Contact Us</a>
+  </div>
+</div>
+
+<section></section> <!-- Spacer Section -->
+
+</body>
+</html>

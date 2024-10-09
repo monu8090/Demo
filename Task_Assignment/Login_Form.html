@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fixed Space Between Divs</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    .outer {
+      height: 520px;
+      width: 100%;
+      background: black;
+      display: flex;
+    }
+   .innerA{
+    height: 350px;
+    width: 300px;
+    background-color: white;
+    margin-top: 100px;
+    margin-left: 200px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px 25px 31px 54px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+      opacity: 0.8;
+   }
+   .h2heading{
+    text-align: center;
+    margin-top: 5px;
+    font-weight: bold;
+   }
+   .btnouter{
+    height: 35px;
+    width: 80%;
+    background-color: white;
+    margin-left: 40px;
+    margin-top: 10px;
+    border-radius: 5px;
+    display: flex;
+    border: 1px solid black;
+   }
+   .loginbtn{
+    height: 100%;
+    width: 50%;
+    background-color: rgb(50, 44, 129);
+    border-radius: 5px;
+    /*border: 1px solid black;*/
+   }
+   .signbtn{
+    height: 100%;
+    width: 50%;
+    background-color: white;
+    border-radius: 5px;
+    /*border: 1px solid black;*/
+   }
+
+.logininput{
+  height: 35px;
+  width: 80%;
+  margin-top: 20px;
+  margin-left: 40px;
+  border-radius: 5px;
+
+}
+
+
+
+   .innerB{
+
+    height: 350px;
+    width: 300px;
+    background-color: white;
+    margin-top: 100px;
+    margin-left: 100px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px 25px 31px 54px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    opacity: 0.8;
+   }
+   .loginbtninnerB{
+
+    height: 100%;
+    width: 50%;
+    background-color:white;
+    border-radius: 5px;
+    /*border: 1px solid black;*/
+   }
+   .signbtninnerB{
+    height: 100%;
+    width: 50%;
+    background-color: rgb(50, 44, 129);
+    border-radius: 5px;
+    /*border: 1px solid black;*/
+   }
+  </style>
+</head>
+<body>
+  <div class="outer">
+    <div class="innerA">
+      <form action="">
+        <h2 class="h2heading">Login Form</h2>
+        <div class="btnouter">
+          <div class="loginbtn" style="text-align: center;padding-top:5px; color:white;"> Login</div>
+          <div class="signbtn" style="text-align: center;padding-top:5px;">Signup</div>
+        </div>
+
+        <input type="Email" value="" placeholder="Email Address" class="logininput"> <br>
+        <input type="Password" value="" placeholder="password" class="logininput">
+        <p style="color: blue; margin-left: 40px; margin-top: 10px;">Forgot password?</p> <br>
+        <input type="submit" value="Login" class="logininput" style="background-color: rgb(50, 44, 129); color:white;">
+          <p style="text-align: center; margin-top:20px;"> Not a member? <span style="color:blue;">Signup now</span></p>
+      </form>
+    </div>
+
+
+
+
+
+    <div class="innerB">
+      <form action="">
+
+        <h2 class="h2heading">Signup Form</h2>
+        <div class="btnouter">
+          <div class="loginbtninnerB" style="text-align: center;padding-top:5px; color:black;"> Login</div>
+          <div class="signbtninnerB" style="text-align: center;padding-top:5px;">Signup</div><br>
+          
+        </div>
+        <input type="Email" value="Email Address" class="logininput"> <br>
+        <input type="Password" value="" placeholder="password" class="logininput"> <br>
+        <input type="Confirm Password" value="" class="logininput"> <br>
+        <input type="submit" value="Login" class="logininput" style="background-color: rgb(50, 44, 129); color:white;">
+      </form>
+    </div>
+   
+  </div>
+</body>
+</html>

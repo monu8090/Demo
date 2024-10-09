@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    div{
+      height: 80px;
+      width: 80px;
+      position: relative;
+    }
+    div img{
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+    .box1{
+      animation: run linear 5s infinite alternate;
+    }
+    
+    .box2{
+      animation: run ease 5s infinite alternate;
+    }
+    
+    .box3{
+      animation: run ease-in 5s infinite alternate;
+    }
+    
+    .box4{
+      animation: run ease-out 5s infinite alternate;
+    }
+    
+    .box5{
+      animation: run ease-in-out 5s infinite alternate;
+    }
+    @keyframes run{
+      from{left: 0%;}
+      to{left: 90%;}
+    }
+
+  </style>
+</head>
+<body>
+  <div class="box1">
+    <img class="img1"  src="../Image/car.jpg" alt="">
+  </div>
+  <div class="box2">
+    <img class="img2"   src="../Image/car.jpg" alt=" ">
+  </div>
+  <div class="box3">
+    <img class="img3"  src="../Image/car.jpg" alt="">
+  </div>
+  <div class="box4">
+    <img class="img4"  src="../Image/car.jpg" alt="">
+  </div>
+  <div class="box5">
+    <img class="img5"  src="../Image/car.jpg" alt="">
+  </div>
+</body>
+</html>

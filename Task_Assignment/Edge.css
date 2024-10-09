@@ -1,0 +1,87 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.outer{
+  height: 50px;
+  width: 100%;
+  background-color: blue;
+  display: flex;
+  align-items: center;
+
+}
+.phoneimg{
+  height:20px;
+  width:30px;
+  background-color: aqua;
+  margin-left: 50px;
+}
+.phoneno{
+  height: 20px;
+  width:160px;
+  background-color:pink;
+}
+.emailimg{
+  height:20px;
+  width:30px;
+  background-color: aqua;
+  margin-left: 50px;
+}
+.emailmsg{
+  height:20px;
+  width:160px;
+  background-color: rgb(195, 0, 255);
+  
+}
+.facebok{
+  height:20px;
+  width:30px;
+  background-color: aqua;
+  margin-left: 300px;
+ 
+
+}
+.tiwit{
+  height:20px;
+  width:30px;
+  background-color: aqua;
+  margin-left: 10px;
+  
+}
+.P{
+  height:20px;
+  width:30px;
+  background-color: aqua;
+  margin-left: 10px;
+  
+}
+.wifi{
+  height:20px;
+  width:30px;
+  background-color: aqua;
+  margin-left: 10px;
+  
+}
+.dolor{
+  height:20px;
+  width:30px;
+  background-color: aqua;
+  margin-left: 10px;
+  
+}
+.google{
+  height:20px;
+  width:30px;
+  background-color: aqua;
+  margin-left: 10px;
+  
+}
+.search{
+  height:20px;
+  width:30px;
+  background-color: aqua;
+  margin-left: 10px;
+  
+}

@@ -1,0 +1,634 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.buyPart{
+  height: 50px;
+  width: 100%;
+  background-color:black;
+  /*background-attachment: fixed;*/
+  position: fixed;
+}
+b{
+  color:white;
+  font-size: 20px;
+  margin-left: 35px;
+  margin-top: 30px;
+  text-align: center;
+}
+.btn{
+  background-color: green;
+  color: beige;
+  height: 30px;
+  width: 100px;
+  float: right;
+  margin-top: 10px;
+  margin-right: 20px;
+  border-radius: 10px 20px;
+  font-weight: bold;
+
+}
+.freedeliveryPart{
+  height: 50px;
+  width: 100%;
+  border: 1px solid black;
+}
+.lunguage-dropdown{
+  height: 20px;
+  width: 60px;
+  margin-left: 100px;
+  margin-top: 15px;
+}
+.USD-dropdown{
+  height: 20px;
+  width: 60px;
+margin-left: 10px;
+  margin-top: 15px;
+}
+h6{
+  margin-left: 270px;
+  
+}
+.HarmicPart {
+  height: 70px;
+  width: 100%;
+ 
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between; 
+  background-color: #000;
+  padding: 0 20px; 
+  border: 1px solid rebeccapurple;
+}
+
+h2 {
+  margin: 0; 
+  padding-left: 70px;
+}
+
+.AllCategory {
+  margin-right: 650px; 
+  padding: 5px 10px; 
+  font-size: 13px; 
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+
+
+
+
+.menu {
+  height: 50px;
+  width: 100%;
+  background-color: greenyellow;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  position: relative;
+  /*position: fixed;*/
+  
+}
+
+
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex; 
+
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+
+.dropbtn {
+  background-color: greenyellow;
+  color: black;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%; 
+  left: 0;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+
+.navbar > li {
+  margin: 0 10px; 
+}
+
+.salider{
+  height: 400px;
+  width: 100%;
+  background-color: pink;
+ 
+}
+img{
+  height: 400px;
+  width: 100%;
+}
+.info {
+  height: 100px;
+  width: 100%;
+  background-color: transparent;
+  padding-left: 190px;
+  padding-right: 190px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ 
+}
+
+.infoA, .infoB, .infoC {
+  height: 60px;
+  width: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border: 2px solid greenyellow;
+}
+
+.infoA {
+  background-color:white;
+  color: black;
+  font-size: 13px;
+ 
+}
+
+.infoB {
+  background-color: white;
+  color: black;
+  font-size: 13px;
+}
+
+.infoC {
+  background-color: white;
+  color: black;
+  font-size: 13px;
+}
+
+
+
+
+.fivecircle {
+  height: 70px;
+  width: 100%;
+  /*background-color: pink;*/
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /*border: 1px solid greenyellow;*/
+}
+.allitems, .freshfruit, .vegetable, .fishmeat, .wheat { 
+  /* Corrected class name here */
+  height: 50px;
+  width: 100px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin-left: 50px;
+  margin-right: 80px;
+  border: 2px solid greenyellow;
+}
+.Wrifivecircle {
+  height: 50px;
+  width: 100%;
+  /*background-color: pink;*/
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ /* border: 1px solid greenyellow;*/
+}
+.Wriallitems, .Wrifreshfruit, .Wrivegetable, .Wrifishmeat, .Wriwheat { 
+  /* Corrected class name here */
+  height: 30px;
+  width: 100px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 80px;
+  margin-right: 80px;
+  /*border: 2px solid greenyellow;*/
+}
+
+
+
+/*Wrong code Start */
+
+
+/*Card Part Start*/
+/*
+.Cardimage {
+  height: 200px;
+  width: 100%;
+  background-color: pink;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid greenyellow;
+}
+.papaya, .chili, .chukandar, .coconut { 
+  height: 200px;
+  width: 200px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  border: 2px solid greenyellow;
+}
+.cardwritten {
+  height: 100px;
+  width: 100%;
+  background-color: pink;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid greenyellow;
+}
+.wripapaya, .wrichili, .wrichukandar, .wricoconut {
+  height: 80px;
+  width: 500px;
+  background-color: wheat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 80px;
+  margin-right: 80px;
+  border: 2px solid greenyellow;
+}
+
+
+
+
+
+
+
+
+
+.ThreeGalary{
+  height: 200px;
+  width: 100%;
+ /* background-color:pink;*/
+ /*
+  display: flex;
+  align-items: center;
+   justify-content: space-between;
+   padding-left: 90px;
+   padding-right: 90px;
+}
+.gacardA{
+  height: 150px;
+  width: 280px;
+  background-color: peachpuff;
+
+}
+.AImage{
+  height: 100%;
+  width: 50%;
+  background-color: black;
+  float: right;
+}
+.Awrite{
+  height: 100%;
+  width: 50%;
+  background-color:gray;
+  float: right;
+}
+
+.gacardB{
+  height: 150px;
+  width: 280px;
+  background-color:greenyellow;
+  
+}
+.BImage{
+  height: 100%;
+  width: 50%;
+  background-color: black;
+  float: right;
+}
+.Bwrite{
+  height: 100%;
+  width: 50%;
+  background-color:gray;
+  float: right;
+}
+.gacardC{
+   height: 150px;
+  width: 280px;
+  background-color:pink;
+  
+}
+.CImage{
+  height: 100%;
+  width: 50%;
+  background-color: black;
+  float: right;
+}
+.Cwrite{
+  height: 100%;
+  width: 50%;
+  background-color:gray;
+  float: right;
+}
+.galarybtn{
+height: 20px;
+width: 100px;
+background-color: aqua;
+color: black;
+margin-top: 80px;
+margin-left: 20px;
+border-radius: 32px 13px 6px;
+}
+*/
+
+/*Wrong code End */
+
+.cardImage {
+  height: 200px;
+  width: 100%;
+  /*background-color: pink;*/
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /*border: 1px solid greenyellow;*/
+  margin-top: 25px;
+  box-shadow: 10px 30px;
+}
+.cardimgA, .cardimgB, .cardimgC, .cardimgD { 
+  height: 200px;
+  width: 200px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 30px;
+  margin-right: 20px;
+  /*border: 2px solid greenyellow;*/
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+.cardwri {
+  height: 100px;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around; 
+}
+
+.cardwriA, .cardwriB, .cardwriC, .cardwriD {
+  height: 100px; 
+  width: 20%; 
+  display: flex;
+  flex-direction: column; 
+  /* Align items vertically */
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  /*border: 2px solid greenyellow;*/
+  box-sizing: border-box;
+}
+
+.star-rating {
+  display: flex;
+  direction: rtl; /* Display stars from right to left */
+  font-size: 15px;
+  margin-top: 5px; 
+}
+
+.star-rating input {
+  display: none; /* Hide radio buttons */
+}
+
+.star-rating label {
+  cursor: pointer;
+  color: lightgray; 
+  /* Unselected star color */
+  transition: color 0.2s ease-in-out;
+}
+
+.star-rating input:checked ~ label {
+  color: gold; /* Selected star color */
+}
+
+.star-rating label:hover,
+.star-rating label:hover ~ label {
+  color: gold; /* Hover effect for stars */
+}
+
+
+
+
+
+/*Next Part OF Card start*/
+
+
+
+
+
+.next-Card-outer {
+  height: 180px;
+  width: 100%;
+  /*background-color: blanchedalmond;*/
+  margin-top: 50px;
+  display: flex;
+ 
+}
+
+.innerA, .innerB, .innerC, .innerD{
+  height: 200px;
+  width: 20%;
+  /*margin-left: 40px;*/
+  margin-left: 30px;
+  margin-right: 50px;
+background-color: #3e8e41;
+margin-top: 20px;
+border-radius: 15px;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.wri-outer {
+  height: 120px;
+  width: 100%;
+  /*background-color: blue;*/
+  display: flex;
+  margin-top: 50px;
+}
+
+.inner-wri-A, .inner-wri-B, .inner-wri-C, .inner-wri-D {
+  height: 40%;
+  width: 20%;
+  margin-left: 40px;
+  background-color: white;
+  text-align: center;
+  margin-top: 5px;
+}
+
+/* Star Rating Code */
+.star-rating {
+  display: flex;
+  direction: rtl; /* Display stars from right to left */
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+.star-rating input {
+  display: none; /* Hide radio buttons */
+}
+
+.star-rating label {
+  cursor: pointer;
+  color: lightgray; /* Unselected star color */
+  transition: color 0.2s ease-in-out;
+}
+
+.star-rating input:checked ~ label {
+  color: gold; /* Selected star color */
+}
+
+.star-rating label:hover,
+.star-rating label:hover ~ label {
+  color: gold; /* Hover effect for stars */
+}
+
+
+/*Next Part OF Card End */
+
+
+/*Three Galary part Code Strat*/
+.Outer-part{
+  height: 200px;
+  width: 100%;
+  /*background-color: pink;*/
+  display: flex;
+}
+
+.galaryA, .galaryB,.galaryC{
+  height: 90%;
+  width: 30%;
+  background-color: black;
+  margin-left: 30px;
+  display: flex;
+}
+
+/*Galary Part A code start*/
+
+.galaryA-wri{
+  height: 100%;
+  width: 50%;
+  background-color:rgb(182, 182, 96);
+}
+.galaryB-vege{
+  height: 100%;
+  width: 50%;
+  background-color:rgb(182, 182, 96);
+}
+  
+
+/* Galary B part  start*/
+.galaryA-wri2{
+  height: 100%;
+  width: 50%;
+  background-color: rgb(61, 224, 110);
+}
+.galaryB-juice{
+  height: 100%;
+  width: 50%;
+  background-color: rgb(255, 0, 221);
+}
+  
+
+/* Galary C part  start*/
+.galaryA-wri3{
+  height: 100%;
+  width: 50%;
+  background-color: rgb(103, 158, 112);
+}
+.galaryB-fruit{
+  height: 100%;
+  width: 50%;
+  background-color: rgb(251, 255, 0);
+}
+  
+
+
+/*Three Galary part Code Start*/
+
+
+
+/*Footer Part Start*/
+
+.footer-outer{
+  height: 300px;
+  width: 100%;
+  background-color: rgb(121, 128, 93);
+  margin-top: 25px;
+  display: flex;
+}
+.Harmic,.Info , .myaccount,.news{
+  height: 100%;
+  width: 25%;
+ /* background-color: aqua;*/
+  margin-left: 10px;
+  
+}
+.Pfooter{
+  margin-top: 20px;
+  margin-left: 20px;
+  display: flex;
+}
+input{
+  height: 30px;
+  width: 160px;
+  margin-left: 30px;
+  margin-top: 20px;
+}

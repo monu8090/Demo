@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 600px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+}
+
+.OuterPart {
+  display: grid;
+  
+  gap: 5px;
+  width: 600px;
+  height: 600px;
+  background-color: black;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.green {
+  background-color: green;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.path {
+  background-color: white;
+  display: flex;
+}
+
+.horizontal {
+  grid-column: 2;
+  grid-row: 1 / span 3;
+}
+
+.vertical {
+  grid-column: 1 / span 3;
+  grid-row: 2;
+}
+
+.center {
+  grid-column: 2;
+  grid-row: 2;
+  background-color: #333;
+  color: deeppink;
+  display: flex;
+ 
+
+}
+
+.redA{
+  height: 40px;
+  width: 40px;
+  background-color: white;
+  float: right;
+  margin-top: 40px;
+  border-radius: 50%;
+
+}
+.redB{
+  height: 40px;
+  width: 40px;
+  background-color: white;
+  margin-top: 40px;
+ 
+  border-radius: 50%;
+}
+.redC{
+  height: 40px;
+  width: 40px;
+  background-color: white;
+  float: right;
+  margin-top: 40px;
+ border-radius: 50%;
+
+}
+.redD{
+ height: 40px;
+  width: 40px;
+  background-color: white;
+  
+  margin-top: 40px;
+  border-radius: 50%;
+
+}
+
+.BlueA{
+  height: 40px;
+  width: 40px;
+  background-color: white;
+  float: right;
+  margin-top: 40px;
+  border-radius: 50%;
+
+}
+.BlueB{
+  height: 40px;
+  width: 40px;
+  background-color: white;
+  margin-top: 40px;
+ 
+  border-radius: 50%;
+}
+.BlueC{
+  height: 40px;
+  width: 40px;
+  background-color: white;
+  float: right;
+  margin-top: 40px;
+ border-radius: 50%;
+
+}
+.BlueD{
+ height: 40px;
+  width: 40px;
+  background-color: white;
+  
+  margin-top: 40px;
+  border-radius: 50%;
+
+}
+
+
+.GreenA{
+  height: 40px;
+  width: 40px;
+  background-color: white;
+  float: right;
+  margin-top: 40px;
+  border-radius: 50%;
+
+}
+.GreenB{
+  height: 40px;
+  width: 40px;
+  background-color: white;
+  margin-top: 40px;
+ 
+  border-radius: 50%;
+}
+.GreenC{
+  height: 40px;
+  width: 40px;
+  background-color: white;
+  float: right;
+  margin-top: 40px;
+ border-radius: 50%;
+
+}
+.GreenD{
+ height: 40px;
+  width: 40px;
+  background-color: white;
+  
+  margin-top: 40px;
+  border-radius: 50%;
+
+}
+
+
+
+
+.YellowA{
+  height: 40px;
+  width: 40px;
+  background-color: white;
+  float: right;
+  margin-top: 40px;
+  border-radius: 50%;
+
+}
+.YellowB{
+  height: 40px;
+  width: 40px;
+  background-color: white;
+  margin-top: 40px;
+ 
+  border-radius: 50%;
+}
+.YellowC{
+  height: 40px;
+  width: 40px;
+  background-color: white;
+  float: right;
+  margin-top: 40px;
+ border-radius: 50%;
+
+}
+.YellowD{
+ height: 40px;
+  width: 40px;
+  background-color: white;
+  
+  margin-top: 40px;
+  border-radius: 50%;
+
+}

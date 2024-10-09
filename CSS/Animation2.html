@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    *{
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
+    }
+    body{
+      height: 100vh;
+      width: 100vw;
+      overflow: hidden;
+    }
+      div{
+        height: 100px;
+        width: 100px;
+        background: red;
+        animation-name: animate;
+        animation-duration: 10s;
+        animation-timing-function: linear;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
+        position: absolute;
+        overflow: hidden;
+
+      }
+
+        /*@keyframes animate {
+          from{left: 0%;}
+          to{left: 100%;}
+          
+        }*/
+
+      @keyframes animate{
+        from{left: 0%;}
+        25%{left:100%;top:0%;}
+        50%{top:100%;right:8%;}
+        75%{right: 100%; bottom: 0%;}
+        100%{bottom: 100%; left: 0%;}
+      }
+  </style>
+</head>
+<body>
+  <div></div>
+</body>
+</html>

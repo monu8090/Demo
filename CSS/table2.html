@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Student Table</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    table{
+      width: 100%;
+      margin: 10px auto;
+      border: 2px solid #000;
+      border-collapse: separate;
+      caption-side: bottom;
+      table-layout: fixed;
+      empty-cells: hide;
+      border-spacing: 20px;
+    }
+    th, td{
+      border: 2px solid #000;
+      padding: 20px;
+      text-align: center;
+      overflow: auto;
+    }
+    caption{
+      padding: 20px 0px 0px 0px;
+      color: aqua;
+    }
+  </style>
+</head>
+<body>
+<hr>
+<h1 align="center">Table</h1>
+<hr>
+<table border="2" cellpadding="20" cellspacing="30">
+  <thead>
+    <tr>
+      <th>S.No</th>
+      <th>Name</th>
+      <th>Roll No.</th>
+      <th>Course</th>
+      <th>Designation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Diby</td>
+      <td>App24092</td>
+      <td>Full Stack</td>
+      <td>Student</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Alice</td>
+      <td>App24093</td>
+      <td>Data Science</td>
+      <td>Student</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Bob</td>
+      <td>App24094</td>
+      <td>AI/ML</td>
+      <td>Student</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Charlie</td>
+      <td>App24095</td>
+      <td>Cybersecurity</td>
+      <td>Student</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td colspan="5" align="center">Notes: All students are in Techsima</td>
+    </tr>
+  </tfoot>
+  <caption>Table 1.1 Student Table</caption>
+</table>
+</body>
+</html>

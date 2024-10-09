@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    h1{
+      background: red;
+      color: #fff;
+    }
+    h1:after{
+      content: "Private Limited";
+      background-color: aqua;
+      color: blue;
+    }
+    h1::before{
+      content: "Techsima";
+      background-color: chartreuse;
+    }
+    div::after{
+      content: "";
+      height: 5px;
+      width: 50px;
+      background: red;
+      position: absolute;
+      top: 25px;
+      left: 0px;
+      opacity: 0;
+    }
+    div::before{
+      content: "";
+      height: 5px;
+      width: 50px;
+      background: red;
+      position: absolute;
+      top: 25px;
+      left: 0px;
+      opacity: 0;
+      transition: all ease 2s;
+    }
+
+    div:hover::after{
+      opacity: 1;
+    }
+    div:hover::before{
+      opacity: 1;
+      left: 60px;
+    }
+
+  </style>
+
+</head>
+<body>
+  <div>Code your way</div>
+  <h1>Solution</h1>
+</body>
+</html>

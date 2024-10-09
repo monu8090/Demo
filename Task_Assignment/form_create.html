@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <style>
+    .outerpart {
+      height: 550px;
+      width: 960px;
+      /*background-color: pink;*/
+      display: flex;
+      padding-top:20px;
+      padding-left:100px;
+      /*justify-content: center;
+      /*align-items: center;*/
+    }
+
+    .innerpart {
+      height: 490px;
+      width: 300px;
+      background-color: white;
+      padding: 30px 50px 0 50px;
+      display: flex;
+      flex-direction: column;
+      box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 10px 6px 12.5px;
+
+    }
+
+    input {
+      border-radius: 5px;
+      margin-top: 10px;
+      height: 30px;
+      width: 250px;
+      margin-left: 28px;
+    }
+
+    label {
+      margin-top: 10px;
+      margin-left: 28px;
+    }
+
+    .btn {
+      height: 30px;
+      width: 260px;
+      background-color: blue;
+      margin-top: 20px;
+      color: aliceblue;
+      border: none;
+  
+    }
+    .rememberbtn{
+      height: 15px;
+      width: 20px;
+      margin-top: 10px;
+    }
+
+    .btn-secondary {
+      background-color: transparent;
+      color: black;
+    }
+
+    span.forgot {
+      color: red;
+      margin-left: 30px;
+      cursor: pointer;
+    }
+
+    span.or {
+      margin-left: 30px;
+      display: block;
+      margin-top: 10px;
+    }
+    .secondform{
+    height: 490px;
+      width: 300px;
+      background-color: white;
+      padding: 30px 50px 0 50px;
+      display: flex;
+      flex-direction: column;
+      padding-left: 30px;
+      margin-left: 100px;
+      box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 10px 6px 12.5px;
+    }
+    .inputmodel{
+      height: 30px;
+      width: 250px;
+      margin-left: 40px;
+    }
+  </style>
+</head>
+<body>
+  <div class="outerpart">
+    <div class="innerpart">
+      <!-- Regular login form -->
+      <form action="login-process.php" method="POST">
+        <h2>Hi, Welcome Back!👋</h2><br>
+        
+        <label for="email">Email</label><br>
+        <input type="email" id="email" name="email" placeholder="example@gmail.com" required><br>
+        
+        <label for="password">Password</label><br>
+        <input type="password" id="password" name="password" placeholder="Enter Password" required><br>
+        
+        <input type="checkbox" id="remember" name="remember" class="rememberbtn">
+        <label for="remember">Remember Me</label>
+        
+        <span class="forgot" style="font-size: 12px;">Forgot Password?</span><br>
+        
+        <input type="submit" value="Login" class="btn" style="margin-left: 30px;"><br>
+      </form>
+
+      <span class="or">_______Or With_________</span><br>
+
+      <!-- Facebook login form -->
+      <form action="facebook-login-process.php" method="POST">
+        <input type="submit" value="Login with Facebook" class="btn" style="margin-left: 30px;"><br>
+      </form>
+
+      <!-- Google login form -->
+      <form action="google-login-process.php" method="POST">
+        <input type="submit" value="Login with Google" class="btn" style="margin-left: 30px; background-color:wheat; color:black;"><br>
+      </form>
+
+      <p>Don't have an account? <span style="color: red;">Sign Up</span></p>
+    </div>
+    <div class="secondform">
+      <form>
+      <h2 style="text-align: center; font-weight: bold;">Create an account</h2>
+
+      <input type="text" name="" placeholder="Enter your userName" class="inputmodel"><br>
+
+      <input type="email" name="" placeholder="Email@gmail.com" class="inputmodel"><br>
+
+      <input type="text" name="" placeholder="Enter Phone Number"class="inputmodel"><br>
+
+      <input type="password" name="" placeholder="EnterPassword"class="inputmodel">
+      <input type="Submit" name="" value="Sign Up"class="inputmodel" style="background-color: blue; color: white;">
+      <p style="margin-left:30px;">_____________Or With_____________</p>
+       <input type="Submit" name="" value="Signup with Facebook"class="inputmodel" style="background-color: blue; color: white;">
+        <input type="Submit" name="" value="Signup with Google"class="inputmodel" style="background-color:whitesmoke; color:black;">
+        <p style="text-decoration: underline;">Already have an account? &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: blue; font-weight:bold;">Login</span></p> 
+</form>
+    </div>
+  </div>
+</body>
+</html>
